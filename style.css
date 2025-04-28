@@ -1,0 +1,52 @@
+
+body {
+    background-color: #ffe6f0;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    border: none;
+    background-color: #ff6699;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff3366;
+}
+
+.hidden {
+    display: none;
+}
+
+#card, #cake {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff0f5;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#cakeImg {
+    width: 300px;
+    margin-top: 20px;
+}
+
+#balloons {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
